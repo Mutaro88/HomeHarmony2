@@ -1,0 +1,66 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #E3F2FD; /* Fondo suave */
+    text-align: center;
+}
+
+header {
+    background-color: #2196F3; /* Azul vivo */
+    color: white;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.service-box {
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #FFC107; /* Amarillo vivo */
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.service-box i {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.service-box:hover {
+    transform: translateY(-5px);
+    background-color: #FFEB3B; /* Amarillo más claro */
+}
+
+#registration-section, #service-details {
+    margin-top: 20px;
+    border: 1px solid #BBDEFB;
+    padding: 20px;
+    border-radius: 10px;
+    background: white;
+}
+
+input[type="email"], input[type="password"], button, #back-to-services {
+    padding: 10px;
+    margin-top: 10px;
+    width: 80%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #FFF;
+    color: #333;
+}
+
+button, #back-to-services {
+    background-color: #FF5722; /* Naranja vivo */
+    color: white;
+    cursor: pointer;
+}
+
+button i, #back-to-services i {
+    margin-right: 8px;
+}

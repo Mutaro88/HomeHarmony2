@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeHarmony - Soluciones para el Hogar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>HomeHarmony</h1>
+        <p>Soluciones para el hogar</p>
+    </header>
+    <main>
+        <div id="services">
+            <div class="service-box" data-service="full-aseo"><i class="fas fa-broom"></i> Solo Aseo</div>
+            <div class="service-box" data-service="nanny"><i class="fas fa-baby-carriage"></i> Servicio de Niñeras</div>
+            <div class="service-box" data-service="hourly-cleaning"><i class="fas fa-clock"></i> Aseo por Hora</div>
+            <div class="service-box" data-service="all-inclusive"><i class="fas fa-concierge-bell"></i> Servicio Full Todo Incluido</div>
+        </div>
+        
+        <div id="registration-section" class="hidden">
+            <h2>Registro</h2>
+            <input type="email" placeholder="Correo electrónico" id="email">
+            <input type="password" placeholder="Contraseña" id="password">
+            <button id="register-manual">Registrarse</button>
+            <div>
+                <a href="https://google.com" target="_blank"><button id="register-google"><i class="fab fa-google"></i> Google</button></a>
+                <a href="https://facebook.com" target="_blank"><button id="register-facebook"><i class="fab fa-facebook-f"></i> Facebook</button></a>
+            </div>
+        </div>
+
+        <div id="service-details" class="hidden">
+            <!-- Detalles del servicio se insertarán aquí -->
+            <button id="back-to-services">Volver al menú</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
